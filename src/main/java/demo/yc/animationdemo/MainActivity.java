@@ -44,5 +44,7 @@ public class MainActivity extends AppCompatActivity
     {
         startActivity(new Intent(this,RippleActivity.class));
     }
+    public void gitconfitdemo()
+    {}
 
 }
