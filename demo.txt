@@ -1,6 +1,13 @@
 ﻿
 ﻿delete the content
+CCCCCCCC
+谁将我的AAAAAAAA乱码删除了
+AAAAA
+VVVV
+
 
 谁将我的乱码删除了
 
 我把test合并的删除了，没用
+
+解决了本地仓库冲突，又发生了远程仓库冲突，真烦
