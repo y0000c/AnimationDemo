@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="demo.yc.animationdemo.RippleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/click1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="系统有边界"/>
+
+        <Button
+            android:id="@+id/click2" android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:text="系统无边界"/>
+
+        <Button
+            android:id="@+id/click3" android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/my_ripple"
+            android:text="自定义"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
